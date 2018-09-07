@@ -32,7 +32,7 @@ void reverse(char s[])
     int i, j;
     char hold;
 
-    if (s[0] == '\0') 
+    if (s[0] == '\0')
         return;
     for (i = 0; s[i] != '\0'; ++i) 
         ;
